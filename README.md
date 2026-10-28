@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.8+" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="Licença MIT" />
   <img src="https://img.shields.io/badge/PIBIC-CNPq-005BA1?style=for-the-badge" alt="PIBIC/CNPq" />
   <img src="https://img.shields.io/badge/UERN-FANAT-008080?style=for-the-badge" alt="UERN" />
 </p>
@@ -30,6 +31,7 @@ O projeto conta com inicialização inteligente **K-Means++**, critério de múl
   - [Bases Sintéticas e Desafios Clássicos](#bases-sintéticas-e-desafios-clássicos)
 - [Fundamentação Teórica e Fórmulas](#-fundamentação-teórica-e-fórmulas)
 - [Autoria e Créditos Acadêmicos](#-autoria-e-créditos-acadêmicos)
+- [Licença](#-licença)
 
 ---
 
@@ -69,6 +71,7 @@ algoritmo_kmeans/
 ├── datasets/          # Coleção de bases sintéticas e dados reais de teste
 ├── data_loader.py     # Função para leitura e parsing flexível de dados tabulares
 ├── kmeans.py          # Núcleo algorítmico do K-Means, K-Means++, Inércia e Silhueta
+├── LICENSE            # Termos da Licença MIT
 ├── main.py            # Ponto de entrada: configuração de parâmetros e renderização gráfica
 ├── PESQUISA.md        # Documento científico com contexto detalhado e referências do PIBIC
 └── README.md          # Documentação geral de instalação, uso e boas práticas
@@ -305,6 +308,12 @@ $$s(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}, \quad s(i) \in [-1, 1]$$
 * **Instituição:** Universidade do Estado do Rio Grande do Norte — [UERN](http://www.uern.br)
 * **Unidade Acadêmica:** Faculdade de Ciências Exatas e Naturais (FANAT) — Departamento de Ciência da Computação
 * **Programa:** Programa Institucional de Bolsas de Iniciação Científica — **PIBIC / CNPq**
+
+---
+
+## 📄 Licença
+
+Este projeto é distribuído sob os termos da licença **MIT**. Para maiores detalhes, consulte o arquivo [`LICENSE`](file:///home/lacum/Documentos/PIBIC/algoritmo_kmeans/LICENSE) disponível na raiz do repositório.
 
 ---
 
